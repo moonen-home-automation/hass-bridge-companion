@@ -1,0 +1,13 @@
+{
+    "domain": "grpc_bridge",
+    "name": "gRPC Bridge Companion",
+    "codeowners": [
+        "@rickmoonex"
+    ],
+    "config_flow": true,
+    "dependencies": [],
+    "documentation": "https://github.com/moonen-home-automation/hass-bridge-companion/blob/main/README.md",
+    "iot_class": "local_push",
+    "issue_tracker": "https://github.com/moonen-home-automation/hass-bridge-companion/issues",
+    "version": "1.0.0"
+}
