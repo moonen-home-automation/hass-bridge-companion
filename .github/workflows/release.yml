@@ -21,7 +21,7 @@ jobs:
         shell: 'bash'
         run: |
           cd "${{ github.workspace }}/custom_components/grpc_bridge"
-          zip integration_blueprint.zip -r ./
+          zip grpc_bridge.zip -r ./
 
       - name: 'Upload the ZIP file to the release'
         uses: 'softprops/action-gh-release@v2.0.6'
